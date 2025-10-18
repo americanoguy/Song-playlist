@@ -1,0 +1,84 @@
+body{
+    margin: auto;
+    padding: 100px;
+    background-color: black;
+}
+h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.singer-0{
+    background-image: url(https://cdn.europosters.eu/image/750/5961.jpg);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    border-radius: 20px;
+    color: aqua;
+    box-shadow: 0 0 20px gray;
+    transition: all 0.5s;
+    height: 25vh;
+    width: 80vw;
+    padding: 30px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+button{
+    background-color: rgb(236, 173, 13);
+    box-shadow: 0 0 10px gold;
+    padding: 10px;
+    width: 10vw;
+    font-size: 2em;
+    
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.singer-1{
+    margin-top: 50px;
+    background-image: url(https://www.dking-gallery.com/pix/Misc/Promo_EminemShow.jpg);
+    background-color:darkred;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    border-radius: 20px;
+    box-shadow: 0 0 20px red;
+    transition: all 0.5s;
+    color: white;
+    height: 25vh;
+    width: 80vw;
+    padding: 30px;
+}
+.singer-2{
+     margin-top: 50px;
+    background-image: url(https://imageprod.eu-central-1.linodeobjects.com/products/14415396/conversions/63cea83f2f43d-lg.jpg);
+    background-color:darkgreen;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    border-radius: 20px;
+    box-shadow: 0 0 20px lime;
+    transition: all 0.5s;
+    color: limegreen;
+    height: 25vh;
+    width: 80vw;
+    padding: 30px;
+}
+.singer-3{
+     margin-top: 50px;
+    background-image: url(https://m.media-amazon.com/images/I/71LhnD4aN8L.jpg);
+    background-color:blue;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    border-radius: 20px;
+    box-shadow: 0 0 20px aqua;
+    transition: all 0.5s;
+    color: orangered;
+    height: 25vh;
+    width: 80vw;
+    padding: 30px;
+}
+
+

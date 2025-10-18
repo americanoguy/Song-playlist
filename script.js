@@ -87,10 +87,12 @@ let singerlist= [
     {id:1,Name:"Eminem",song:"songs/Eminem - The Real Slim Shady.mp3"},
     {id:2,Name:"Peter Schilling" , song:"songs/atomic_blonde_02. Peter Schilling - Major Tom (vollig losgelost).mp3" },
     {id:3,Name:"Ed Sheeran" , song:"songs/Ed_Sheeran_-_Shape_of_You_8D_Great_(mp3.pm).mp3"},
+    {id:4,Name:"Handsome Family",song:"songs/The Handsome Family, Brett Sparks - Far from Any Road.mp3"}
 ]
 
 const istifadeciler = document.getElementById("musiqiciler");
 let audio =new Audio();
+
 function showUsers() {
   istifadeciler.innerHTML = "";
 
@@ -118,6 +120,7 @@ function deleteUser(id) {
   if(singerlist[i].id ===id){
 
     singerlist.splice(i,1)
+    audio.pause()
 
     break;
   }

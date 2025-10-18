@@ -91,8 +91,8 @@ let singerlist= [
 ]
 
 const istifadeciler = document.getElementById("musiqiciler");
-let audio =new Audio();
-
+let audio = new Audio();
+//birinci sira sira musiqicilerin adini istifadeciler.innerhtml-in icine yazriq,buton elave edrik.
 function showUsers() {
   istifadeciler.innerHTML = "";
 
@@ -106,13 +106,19 @@ function showUsers() {
   }
 }
 
+//burada musiqini oynatmani edrik
+
 function playSong(id){
-  const singer = singerlist.find((ad) => ad.id === id);
+  const singer = singerlist.find(function(ad) {
+  return ad.id === id;
+});
   if (singer) {
     audio.src = singer.song;
     audio.play();
   }
 }
+
+//burada musiqicini silme ve silendede mahninin dayanmasini edrik.
 
 function deleteUser(id) {
  for(let i = 0;i<singerlist.length;i++){

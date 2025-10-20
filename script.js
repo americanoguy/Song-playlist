@@ -20,7 +20,7 @@ function showSingers(siyahi = singerlist){
 
 
   if(siyahi.length===0){
-    Musiqiciler.innerHTML=`<p id="neticetapilmadi"> Netice tapilmadi</p>`;
+    Musiqiciler.innerHTML=`<p id="neticetapilmadi"> No Results</p>`;
     return
   }
 
@@ -83,10 +83,5 @@ const Axtar = () => {
   showSingers(axtarilanMusiqici);
 };
 
-
-
-
-
-
-
 showSingers();
+
